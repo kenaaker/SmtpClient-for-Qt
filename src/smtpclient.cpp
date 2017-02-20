@@ -21,7 +21,6 @@
 #include <QFileInfo>
 #include <QByteArray>
 
-
 /* [1] Constructors and destructors */
 
 SmtpClient::SmtpClient(const QString & host, int port, ConnectionType connectionType) :

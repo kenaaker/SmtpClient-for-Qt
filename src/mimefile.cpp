@@ -40,8 +40,9 @@ MimeFile::MimeFile(const QByteArray& stream, const QString& fileName)
 
 MimeFile::~MimeFile()
 {
-  if (file)
-    delete file;
+//  if (file)
+//    delete file;
+    // Don't delete files you didn't create... sheesh
 }
 
 /* [1] --- */
